@@ -38,7 +38,7 @@ let highRatings = (rating) => {
     var total = 0;
     for (var i = 0; i < allMovies.length; i++) {
         if (allMovies[i].rating > rating) {
-            console.log(allMovies[i]);
+            console.log(allMovies[i].title + "has a rating of " + allMovies[i].rating);
             total += 1;
         }
     }
