@@ -15,7 +15,7 @@ let addMovie = (movie) => {
     var title = window.prompt("Enter title of the movie: ");
     var rating = window.prompt("Enter rating of the move: ");
     var haveWatched = window.prompt("Enter true or false for if you have watched the movie: ");
-    var newMovie = Movie(title, rating, haveWatched);
+    let newMovie = new Movie(title, rating, haveWatched);
 
     allMovies.add(newMovie);
 }
