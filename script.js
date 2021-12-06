@@ -17,7 +17,7 @@ let addMovie = (movie) => {
     var haveWatched = window.prompt("Enter true or false for if you have watched the movie: ");
     let newMovie = new Movie(title, rating, haveWatched);
 
-    allMovies.add(newMovie);
+    allMovies.push(newMovie);
 }
 
 //iterate through all elements of allMovies array
